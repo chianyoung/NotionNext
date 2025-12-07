@@ -25,7 +25,7 @@ module.exports = {
   SPOILER_TEXT_TAG: process.env.NEXT_PUBLIC_SPOILER_TEXT_TAG || '', // Spoiler文本隐藏功能，如Notion中 [sp]希望被spoiler的文字[sp]，填入[sp] 即可
 
   // 音乐播放插件
-  MUSIC_PLAYER: process.env.NEXT_PUBLIC_MUSIC_PLAYER || false, // 是否使用音乐播放插件
+  MUSIC_PLAYER: process.env.NEXT_PUBLIC_MUSIC_PLAYER || true, // 是否使用音乐播放插件
   MUSIC_PLAYER_VISIBLE: process.env.NEXT_PUBLIC_MUSIC_PLAYER_VISIBLE || true, // 是否在左下角显示播放和切换，如果使用播放器，打开自动播放再隐藏，就会以类似背景音乐的方式播放，无法取消和暂停
   MUSIC_PLAYER_AUTO_PLAY:
     process.env.NEXT_PUBLIC_MUSIC_PLAYER_AUTO_PLAY || true, // 是否自动播放，不过自动播放时常不生效（移动设备不支持自动播放）
@@ -49,6 +49,329 @@ module.exports = {
       url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
       cover:
         'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: 'long song',
+      artist: '方大同',
+      url: './videos/love song.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: 'If We Have Each Other',
+      artist: 'Alec Benjamin',
+      url: './musics/If We Have Each Other.mp3',
+      lrc: 'If We Have Each Other.lrc',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '红豆',
+      artist: '方大同',
+      url: './musics/红豆_方大同.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '爱爱爱',
+      artist: '方大同',
+      url: './musics/爱爱爱.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: 'Lemonade',
+      artist: 'NCT',
+      url: './musics/Lemonade--NCT 127.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '你的意义',
+      artist: 'IU',
+      url: './musics/IU-你的意义--IU.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '八音盒 (Life Is Still Going On)',
+      artist: 'NCT DREAM',
+      url: './musics/八音盒 (Life Is Still Going On)--NCT DREAM.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '三人游',
+      artist: '方大同',
+      url: './musics/三人游.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '摄影艺术',
+      artist: '许嵩',
+      url: './musics/摄影艺术--许嵩.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '特别的人',
+      artist: '方大同',
+      url: './musics/特别的人.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '白马非马',
+      artist: '许嵩',
+      url: './musics/许嵩 - 白马非马.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '大千世界',
+      artist: '许嵩',
+      url: './musics/许嵩 - 大千世界.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '老古董',
+      artist: '许嵩',
+      url: './musics/许嵩 - 老古董.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '庐州月',
+      artist: '许嵩',
+      url: './musics/许嵩 - 庐州月.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '明智之举',
+      artist: '许嵩',
+      url: './musics/许嵩 - 明智之举.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '千百度',
+      artist: '许嵩',
+      url: './musics/许嵩 - 千百度.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '我乐意',
+      artist: '许嵩',
+      url: './musics/许嵩 - 我乐意.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '雅俗共赏',
+      artist: '许嵩',
+      url: './musics/许嵩 - 雅俗共赏.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '有何不可',
+      artist: '许嵩',
+      url: './musics/许嵩 - 有何不可.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '最佳歌手',
+      artist: '许嵩',
+      url: './musics/许嵩 - 最佳歌手.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '温泉',
+      artist: '许嵩',
+      url: './musics/许嵩 _ 刘美麟 - 温泉.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '深夜书店',
+      artist: '许嵩',
+      url: './musics/许嵩 _ 洛天依 - 深夜书店.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '烟花易冷',
+      artist: '周杰伦',
+      url: './musics/烟花易冷--周杰伦.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '烟花易冷',
+      artist: '周杰伦',
+      url: './musics/烟花易冷--周杰伦.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '爱在西元前',
+      artist: '周杰伦',
+      url: './musics/周杰伦 - 爱在西元前.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '安静',
+      artist: '周杰伦',
+      url: './musics/周杰伦 - 安静.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '半岛铁盒',
+      artist: '周杰伦',
+      url: './musics/周杰伦 - 半岛铁盒.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '稻香',
+      artist: '周杰伦',
+      url: './musics/周杰伦 - 稻香.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '等你下课',
+      artist: '周杰伦',
+      url: './musics/周杰伦 - 等你下课(with 杨瑞代).mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '东风破',
+      artist: '周杰伦',
+      url: './musics/周杰伦 - 东风破.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '发如雪',
+      artist: '周杰伦',
+      url: './musics/周杰伦 - 发如雪.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '反方向的钟',
+      artist: '周杰伦',
+      url: './musics/周杰伦 - 反方向的钟.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '告白气球',
+      artist: '周杰伦',
+      url: './musics/周杰伦 - 告白气球.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: ' 花海',
+      artist: '周杰伦',
+      url: './musics/周杰伦 - 花海.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '简单爱',
+      artist: '周杰伦',
+      url: './musics/周杰伦 - 简单爱.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '迷迭香',
+      artist: '周杰伦',
+      url: './musics/周杰伦 - 迷迭香.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '明明就',
+      artist: '周杰伦',
+      url: './musics/周杰伦 - 明明就.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '晴天',
+      artist: '周杰伦',
+      url: './musics/周杰伦 - 晴天.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '听妈妈的话',
+      artist: '周杰伦',
+      url: './musics/周杰伦 - 听妈妈的话.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '夜曲',
+      artist: '周杰伦',
+      url: './musics/周杰伦 - 夜曲.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '一路向北',
+      artist: '周杰伦',
+      url: './musics/周杰伦 - 一路向北.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '以父之名',
+      artist: '周杰伦',
+      url: './musics/周杰伦 - 以父之名.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '梦不落雨林',
+      artist: '张艺兴',
+      url: './musics/张艺兴 - 梦不落雨林.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '成都',
+      artist: '赵雷',
+      url: './musics/赵雷 - 成都.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '鼓楼',
+      artist: '赵雷',
+      url: './musics/赵雷 - 鼓楼.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '他不懂',
+      artist: '张杰',
+      url: './musics/张杰 - 他不懂.mp3',
+      cover:
+        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
