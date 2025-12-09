@@ -19,7 +19,7 @@ const BLOG = {
   BIO: process.env.NEXT_PUBLIC_BIO || '行则将至', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://lyy.life', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '自我革命, 输出, 博客', // 网站关键词 英文逗号隔开
-  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/5.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
+  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || './5.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
  
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_WEHCHAT_PUBLIC: process.env.NEXT_PUBLIC_CONTACT_WEHCHAT_PUBLIC || 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIxMzY3MTg4NA==', // 微信公众号 格式：https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=【xxxxxx】==#wechat_redirect/https://mp.weixin.qq.com/s?__biz=MzIxMzY3MTg4NA==&mid=2247483897&idx=1&sn=390a9c2eb6255f91092024fee68a293c&chksm=97b20b5aa0c5824c3a1de37407132498c5db761f65b88697143c7629f04db114b1b61b15dd5f#rd
